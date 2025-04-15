@@ -7,7 +7,6 @@ import { useState } from "react";
 export default function Layout1() {
   const [showDrawer, setShowDrawer] = useState(false);
   function handleDrawerClick() {
-    debugger
     setShowDrawer(!showDrawer);
   }
   return (
