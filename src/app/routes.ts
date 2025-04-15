@@ -1,6 +1,6 @@
 export const ROUTES = {
     layout1: "/layout1",
-    second: "/second",
+    layout2: "/layout2",
     third: "/third",
     fourth: "/fourth",
   };

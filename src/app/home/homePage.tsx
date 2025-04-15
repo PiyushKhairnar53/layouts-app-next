@@ -10,7 +10,6 @@ export default function HomePage() {
   const router = useRouter();
 
   const handleCardClick = (route: string) => {
-    console.log(`Navigating to ${route}`); 
     router.push(route)
   };
 
@@ -21,7 +20,7 @@ export default function HomePage() {
           <RouteCard title="First" onClick={() => handleCardClick(ROUTES.layout1)}/>
         </Grid>
         <Grid size={6}>
-          <RouteCard title="Second" onClick={() => handleCardClick("/second")}/>
+          <RouteCard title="Second" onClick={() => handleCardClick(ROUTES.layout2)}/>
         </Grid>
         <Grid size={6}>
           <RouteCard title="Third" onClick={() => handleCardClick("/third")}/>
